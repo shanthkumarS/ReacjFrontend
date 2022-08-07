@@ -1,3 +1,16 @@
+# Pre Requirement
+1. node nad npm and above
+
+step1: clone project from https://github.com/shanthkumarS/ReacjFrontend.git
+step2: open the project folder in terminal
+step3: run "npm install"
+step4: run "npm start"
+
+step13: open browser
+step14: url: http://localhost:3000
+
+Run Rul: http://localhost:3000 in browser
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
