@@ -75,6 +75,10 @@ const EditUser = ({ user, fetchUsers, allRoles, openModal, setOpenModal }) => {
             localStorage.removeItem('Authorization', ()=> {
               window.location = '/login';
             });
+        } else {
+          localStorage.removeItem("Authorization", () => {
+            alert("you are not authorized to this page: logging out..");
+          });
         }
         
         Object.keys(res.response.data.errors).forEach((key) => {

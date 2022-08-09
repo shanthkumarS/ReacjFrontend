@@ -50,6 +50,10 @@ export const CreateUser = () => {
           localStorage.removeItem("Authorization", () => {
             window.location.href = '/login';
           });
+        } else {
+          localStorage.removeItem("Authorization", () => {
+            alert("you are not authorized to this page: logging out..");
+          });
         }
         setRoles([]);
       });
@@ -68,6 +72,10 @@ export const CreateUser = () => {
         if (res.response.data.message === "Session expired") {
           localStorage.removeItem("Authorization", () => {
             window.location.href = '/login';
+          });
+        } else {
+          localStorage.removeItem("Authorization", () => {
+            alert("you are not authorized to this page: logging out..");
           });
         }
         Object.keys(res.response.data.errors).forEach((key) => {

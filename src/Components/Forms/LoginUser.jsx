@@ -20,7 +20,6 @@ const LoginUser = ({onLogin}) => {
             onLogin();
             window.location.href = "/";
         }).catch((res) => {
-            console.log(res);
             Object.keys(res.response.data.errors).forEach(key => {
                 setErrors(previousError => ({
                     ...previousError,
