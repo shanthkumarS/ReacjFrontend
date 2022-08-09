@@ -1,5 +1,5 @@
 # Pre Requirement
-1. node nad npm and above
+1. node
 
 step1: clone project from https://github.com/shanthkumarS/ReacjFrontend.git
 step2: open the project folder in terminal
@@ -10,6 +10,13 @@ step13: open browser
 step14: url: http://localhost:3000
 
 Run Rul: http://localhost:3000 in browser
+
+Seeder is added adminin data
+use bellow details to login
+Email: admin@eastvantage.com
+Password: admin@123
+
+
 
 # Getting Started with Create React App
 
